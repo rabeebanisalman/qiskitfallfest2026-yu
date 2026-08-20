@@ -171,6 +171,7 @@ hr {
 }
 
 #home a {
+    text-decoration: none;
     color: #f4f4f4;
     background-color: #bd9afd;
     border-radius: 30px;
