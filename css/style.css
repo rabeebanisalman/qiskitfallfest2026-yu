@@ -305,6 +305,8 @@ hr {
 #schedule h2 {
     font-weight: normal;
     font-style: italic;
+    margin-right: 10px;
+    margin-left: 10px;
     margin-bottom: 20px;
     box-sizing: border-box;
     display: block;
@@ -327,12 +329,16 @@ hr {
 }
 
 #schedule .monthly-container h1 {
-    margin-left: 90px;
+    margin-left: 98px;
 }
 
 #schedule .event-container {
     display: flex;
     position: relative;
+}
+
+#schedule .event-container .text {
+    margin-left: 5px;
 }
 
 #schedule .event-container::before {
@@ -346,20 +352,22 @@ hr {
 }
 
 #schedule .event-container h1 {
+    margin: 0;
+    margin-bottom: 10px;
     font-size: 20px;
     color: #31115b;
-    margin-left: 5px;
-    position: relative;
     top: 0;
 }
 
 #schedule .event-container h2 {
-    display: flex;
+    margin: 0;
     position: relative;
+    margin-top: 10px;
+    bottom: 10px;
+    display: flex;
     color: #bd9afd;
     font-size: 16px;
     font-weight:bold;
-    margin-top: 10px;
 }
 
 #schedule .event-container h3 {
@@ -368,8 +376,8 @@ hr {
 }
 
 #schedule .event-container p {
-    margin-bottom: 5px;
     display: block;
+    margin-bottom: 10px;
 }
 
 #schedule .wrap {
