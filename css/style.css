@@ -462,6 +462,8 @@ hr {
 
 #organizers .wrap {
     aspect-ratio: 1 / 1;
+    width: 139px;
+    height: 139px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -469,6 +471,7 @@ hr {
     padding: 2px;
     border: 2px solid #bd9afd;
     margin-bottom: 10px;
+    flex-shrink: 0;
 }
 
 
@@ -482,6 +485,7 @@ hr {
 
 #organizers svg {
     width: 35px;
+    height: auto;
     padding-top: 5px;
     padding-bottom: 5px;
 }
