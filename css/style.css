@@ -5,6 +5,7 @@
 }
 
 html {
+    max-width: 100%;
     overflow-x: hidden;
     scrollbar-width: thin;
     scrollbar-color: #151515 transparent;
@@ -13,6 +14,7 @@ html {
 body  {
     background-color: #f4f4f4;
     min-height: 100vh;
+    max-width: 100%;
     overflow-x: hidden;
     overflow-y: auto;
 }
