@@ -226,6 +226,17 @@ hr {
     margin-bottom: 15px;
 }
 
+#about h2 a {
+    text-decoration: none;
+    color: #31115b;
+}
+
+#about h2 a:hover,
+#about h2 a:active {
+    text-decoration: underline;
+    color: #31115b;
+}
+
 #location {
     margin-top: 5px;
 }
